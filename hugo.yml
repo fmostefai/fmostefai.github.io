@@ -1,0 +1,15 @@
+baseURL: https://fmostefai.com/
+title: Fatima Mostefai
+copyright: © 2024 Fatima Mostefai
+
+params:
+  header:
+    primary: I am Fatima Mostefai
+    secondary: a PhD candidate in Bioninformatics
+  socials:
+    twitter: https://twitter.com/fatima_mostefai
+    github: https://github.com/fmostefai
+    email: mailto:fmostefai@gmail.com
+  copyright:
+    author: Fatima Mostefai
+    year: 2024
