@@ -13,3 +13,7 @@ params:
   copyright:
     author: Fatima Mostefai
     year: 2024
+
+disableKinds:
+  - taxonomy
+  - term
