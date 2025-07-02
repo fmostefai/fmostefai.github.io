@@ -12,7 +12,7 @@ brew install hugo
 ```
 
 
-Start the local dev server. This server will build the website and serve it on a local port, and it will re-build and hot-reload whenever you update and save a file. 
+Start the local dev server. This server will build the website and serve it on a local port, and it will re-build and hot-reload whenever you update and save a file.
 
 ```
 hugo server
@@ -29,4 +29,11 @@ To update the copy on the homepage, edit `content/_index.md`. See [how Hugo rend
 
 To update the images, replace:
 - `static/images/avatar.jpg` to change the headshot
-- `static/images/bg.jpg` to change the background. Consider using unsplash.com for free images. Remember to test the site in multiple different screen sizes when you change this image. 
+- `static/images/bg.jpg` to change the background. Consider using unsplash.com for free images. Remember to test the site in multiple different screen sizes when you change this image.
+
+If you need to update the filename, position, or size of the background image, edit the sass source file `static/sass/main.scss` and re-generate the CSS.
+
+```
+brew install sass/sass/sass
+sass static/sass/main.scss static/css/main.css
+```
