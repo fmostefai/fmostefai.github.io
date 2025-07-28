@@ -1,18 +1,18 @@
 baseURL: https://fmostefai.com/
-title: Fatima Mostefai
-copyright: © 2024 Fatima Mostefai
+title: Fatima Mostefai Ph.D.
+copyright: © 2025 Fatima Mostefai
 
 params:
   header:
     primary: I am Fatima Mostefai
-    secondary: a PhD candidate in Bioninformatics at Université de Montreal
+    secondary: a postdoctoral fellow in bioinformatics at Beth Israel Deaconess Medical Center, a Harvard-affiliated hospital in Boston.
   socials:
     twitter: https://twitter.com/fatima_mostefai
     github: https://github.com/fmostefai
     email: mailto:fmostefai@gmail.com
   copyright:
     author: Fatima Mostefai
-    year: 2024
+    year: 2025
 
 disableKinds:
   - taxonomy
